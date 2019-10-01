@@ -1,0 +1,36 @@
+li {
+	background-color: skyblue;
+    font-size: 130%;
+}
+span { 
+font-size: x-small; 
+ }
+ body {
+	background-color: pink;
+}
+img {
+	width: 150px;
+}
+input {
+	border-radius: 30px;
+	border: solid red;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    display: inline-block;
+}
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
